@@ -14,6 +14,18 @@
             <!-- <p><strong>Assignment:</strong> The same restaurant data, displayed in four different ways. Each presentation emphasizes different aspects of the information and serves different user goals.</p> -->
         </header>
 
+        <section class="asst-box">
+            <h3>Reflection:</h3>
+            <p>The API I chose was a non-official database of collectable Amiibos! Recently, my roommate started to continue building his collection and I figured that it would be a fun insight chart for him to explore all the Amiibos, especially those that aren’t cards or figurines. He especially was curious about derivatives of amiibos that are linked to a single character, so I found a dataset that included such info! I tried to see if Nintendo had an official API for Amiibos, but unfortunately couldn’t, which is why I turned to a non-official source.
+
+The card view gives a brief overview of all the collectables, giving basic info such as name and what series/game series they are from (there is a slight distinction between those two because of crossovers/collaborations). For the table view, it gives a sortable overview on Amiibo data, including the name of the specific character so that derivatives of the same one can be grouped together. The category view organizes very general info, listing how many of each type of amiibo there is, how many from each series, etc. Stats compares overall percentage in relative comparison to the total number of existing Amiibos, such as what percentage of Amiibos are sold as figurines/cards/etc.
+
+I think specifically, the table would provide the most useful data for my own needs as it gives a quick overview of the key information about Amiibos from a collector’s perspective. It gives series, game series, characters, and more. I don’t particularly think categories/stats would have as much useful information from a collector’s perspective, though cards are far more aesthetically pleasing, but might be bulky for quick perusing.
+
+One challenge is that I wanted to try and create a glowy effect for a sci-fi effect for the interface. It was inspired by the hover shadow/transition effect! So I just messed with it and changed the color and intensity/size of the box shadow to emulate this effect! 
+</p>
+        </section>
+
         <nav class="view-selector">
             <button class="view-button active" id="btn-cards" data-view="cards">Card View</button>
             <button class="view-button" id="btn-table" data-view="table">Table View</button>
@@ -26,18 +38,6 @@
                 <div class="loading">Loading restaurant data...</div>
             </div>
         </main>
-
-        <section class="asst-box">
-            <h3>Reflection:</h3>
-            <p>The API I chose was a non-official database of collectable Amiibos! Recently, my roommate started to continue building his collection and I figured that it would be a fun insight chart for him to explore all the Amiibos, especially those that aren’t cards or figurines. He especially was curious about derivatives of amiibos that are linked to a single character, so I found a dataset that included such info! I tried to see if Nintendo had an official API for Amiibos, but unfortunately couldn’t, which is why I turned to a non-official source.
-
-The card view gives a brief overview of all the collectables, giving basic info such as name and what series/game series they are from (there is a slight distinction between those two because of crossovers/collaborations). For the table view, it gives a sortable overview on Amiibo data, including the name of the specific character so that derivatives of the same one can be grouped together. The category view organizes very general info, listing how many of each type of amiibo there is, how many from each series, etc. Stats compares overall percentage in relative comparison to the total number of existing Amiibos, such as what percentage of Amiibos are sold as figurines/cards/etc.
-
-I think specifically, the table would provide the most useful data for my own needs as it gives a quick overview of the key information about Amiibos from a collector’s perspective. It gives series, game series, characters, and more. I don’t particularly think categories/stats would have as much useful information from a collector’s perspective, though cards are far more aesthetically pleasing, but might be bulky for quick perusing.
-
-One challenge is that I wanted to try and create a glowy effect for a sci-fi effect for the interface. It was inspired by the hover shadow/transition effect! So I just messed with it and changed the color and intensity/size of the box shadow to emulate this effect! 
-</p>
-        </section>
     </div>
     <script type="module" src="./script.js" defer></script>
 
