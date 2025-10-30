@@ -1,4 +1,4 @@
-/* ==================== CYBER DARK MODE STYLES ==================== */
+/*DISPLAY PROVIDED FOR STUDENTS*/
 :root {
     --primary-color: #ff9800;        /* bright orange accent */
     --secondary-color: #00e5ff;      /* neon teal for hover glow */
@@ -9,7 +9,6 @@
     --shadow-color: rgba(255, 152, 0, 0.5); /* initial glowing shadow */
 }
 
-/* ==================== BODY ==================== */
 body {
     font-family: system-ui, sans-serif;
     margin: 0;
@@ -24,7 +23,6 @@ body {
     margin: 0 auto;
 }
 
-/* ==================== NAVIGATION BUTTONS ==================== */
 .view-selector {
     display: flex;
     gap: 1rem;
@@ -55,7 +53,6 @@ body {
     box-shadow: 0 0 12px var(--secondary-color);
 }
 
-/* ==================== DISPLAY CONTAINER ==================== */
 .display-container {
     background: var(--card-background);
     border-radius: 12px;
@@ -65,7 +62,6 @@ body {
     transition: box-shadow 0.3s, background 0.3s;
 }
 
-/* ==================== LOADING & ERROR ==================== */
 .loading {
     text-align: center;
     color: #bbb;
@@ -82,7 +78,7 @@ body {
     text-align: center;
 }
 
-/* ==================== CARDS ==================== */
+/*Cards*/
 .card-grid {
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +104,6 @@ body {
     box-shadow: 0 0 20px var(--secondary-color), 0 0 40px var(--secondary-color);
 }
 
-/* ==================== IMAGES ==================== */
 .amiibo-image {
     width: 150px;
     height: 150px;
@@ -117,7 +112,7 @@ body {
     margin: 0 auto;
 }
 
-/* ==================== TABLE ==================== */
+/*TABLE*/
 .amiibo-table {
     width: 100%;
     border-collapse: collapse;
@@ -155,7 +150,7 @@ body {
   margin: 0 auto;
 }
 
-/* ==================== CATEGORY BOXES ==================== */
+/*CATEGORY*/
 .category-container {
     display: flex;
     flex-wrap: wrap;
@@ -196,7 +191,7 @@ body {
     color: #bbb;
 }
 
-/* ==================== STATS BOXES ==================== */
+/*STATS*/
 .stats-container {
     display: flex;
     flex-wrap: wrap;
@@ -235,7 +230,7 @@ body {
     border-radius: 4px;
 }
 
-/* ==================== ASSIGNMENT BOX ==================== */
+/*ASSIGNMENT*/
 .asst-box {
     margin-top: 2rem;
     padding: 1rem;
